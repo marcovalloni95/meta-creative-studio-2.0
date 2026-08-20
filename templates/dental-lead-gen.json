@@ -1,0 +1,17 @@
+{
+  "template_id": "dental-lead-gen-01",
+  "use_case": "dental hygiene / implant lead gen",
+  "sector": "dental",
+  "message_type": "benefit-focused",
+  "layout": {
+    "canvas": { "width": 1080, "height": 1350 },
+    "zones": {
+      "main_image": { "x": 0, "y": 0, "w": 1080, "h": 700 },
+      "headline": { "x": 60, "y": 740, "w": 960, "h": 140 },
+      "bullets": { "x": 60, "y": 900, "w": 960, "h": 200 },
+      "cta": { "x": 60, "y": 1150, "w": 960, "h": 100 },
+      "badge": { "x": 780, "y": 40, "w": 260, "h": 80 }
+    }
+  },
+  "required_fields": ["headline", "subheadline", "benefits", "cta", "badge_text"]
+}

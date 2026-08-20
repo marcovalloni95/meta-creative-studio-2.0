@@ -1,0 +1,17 @@
+{
+  "template_id": "jewelry-ecommerce-01",
+  "use_case": "jewelry ecommerce product ad",
+  "sector": "jewelry",
+  "message_type": "price-based",
+  "layout": {
+    "canvas": { "width": 1080, "height": 1080 },
+    "zones": {
+      "main_image": { "x": 0, "y": 0, "w": 1080, "h": 780 },
+      "headline": { "x": 60, "y": 810, "w": 960, "h": 90 },
+      "bullets": { "x": 60, "y": 900, "w": 640, "h": 120 },
+      "cta": { "x": 60, "y": 990, "w": 400, "h": 70 },
+      "badge": { "x": 800, "y": 40, "w": 240, "h": 70 }
+    }
+  },
+  "required_fields": ["headline", "subheadline", "benefits", "cta", "badge_text"]
+}

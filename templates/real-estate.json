@@ -1,0 +1,17 @@
+{
+  "template_id": "real-estate-01",
+  "use_case": "real estate valuation / sale lead gen",
+  "sector": "real-estate",
+  "message_type": "benefit-focused",
+  "layout": {
+    "canvas": { "width": 1080, "height": 1350 },
+    "zones": {
+      "main_image": { "x": 0, "y": 0, "w": 1080, "h": 750 },
+      "headline": { "x": 60, "y": 790, "w": 960, "h": 130 },
+      "bullets": { "x": 60, "y": 930, "w": 960, "h": 180 },
+      "cta": { "x": 60, "y": 1150, "w": 960, "h": 100 },
+      "badge": { "x": 780, "y": 40, "w": 260, "h": 80 }
+    }
+  },
+  "required_fields": ["headline", "subheadline", "benefits", "cta", "badge_text"]
+}

@@ -1,0 +1,17 @@
+{
+  "template_id": "event-lead-gen-01",
+  "use_case": "event / exhibition / wedding lead gen",
+  "sector": "events",
+  "message_type": "urgency-based",
+  "layout": {
+    "canvas": { "width": 1080, "height": 1920 },
+    "zones": {
+      "main_image": { "x": 0, "y": 0, "w": 1080, "h": 1200 },
+      "headline": { "x": 60, "y": 1240, "w": 960, "h": 180 },
+      "bullets": { "x": 60, "y": 1440, "w": 960, "h": 220 },
+      "cta": { "x": 60, "y": 1700, "w": 960, "h": 120 },
+      "badge": { "x": 760, "y": 60, "w": 260, "h": 90 }
+    }
+  },
+  "required_fields": ["headline", "subheadline", "benefits", "cta", "badge_text"]
+}

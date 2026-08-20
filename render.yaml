@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: meta-creative-studio-backend
+    runtime: docker
+    dockerfilePath: ./src/backend/Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: FRONTEND_ORIGIN
+        value: https://IL-TUO-PROGETTO.vercel.app
+      - key: FORCE_MOCK_IMAGE_GENERATION
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false

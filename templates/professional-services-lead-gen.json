@@ -1,0 +1,17 @@
+{
+  "template_id": "professional-services-lead-gen-01",
+  "use_case": "professional services lead gen (legal, engineering, consulting, wellness)",
+  "sector": "professional-services",
+  "message_type": "benefit-focused",
+  "layout": {
+    "canvas": { "width": 1080, "height": 1350 },
+    "zones": {
+      "main_image": { "x": 0, "y": 0, "w": 1080, "h": 680 },
+      "headline": { "x": 60, "y": 720, "w": 960, "h": 150 },
+      "bullets": { "x": 60, "y": 880, "w": 960, "h": 200 },
+      "cta": { "x": 60, "y": 1120, "w": 960, "h": 100 },
+      "badge": { "x": 780, "y": 40, "w": 260, "h": 80 }
+    }
+  },
+  "required_fields": ["headline", "subheadline", "benefits", "cta", "badge_text"]
+}

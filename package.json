@@ -1,0 +1,18 @@
+{
+  "name": "meta-creative-studio-2.0",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tool ibrido per generare creativita Meta Ads: AI da zero (Modalita A) o da libreria template (Modalita B).",
+  "workspaces": [
+    "src/backend",
+    "src/frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=src/backend",
+    "dev:frontend": "npm run dev --workspace=src/frontend",
+    "build:backend": "npm run build --workspace=src/backend",
+    "build:frontend": "npm run build --workspace=src/frontend",
+    "lint": "npm run lint --workspace=src/backend && npm run lint --workspace=src/frontend"
+  },
+  "license": "UNLICENSED"
+}
